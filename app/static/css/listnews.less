@@ -1,0 +1,96 @@
+.wrapper {
+    margin-top: 20px;
+    li {
+        background: #fff;
+        .item {
+          padding: 10px;
+          display: flex;
+          border-bottom: 1px solid #e8e8e8;
+          .pic {
+              width: 158px;
+              height: 102px;
+              margin-right: 16px;
+              a {
+                  height: 100%;
+                  img {
+                      height: 100%;
+                      width: 100%;
+                      transition: .3s;
+                      &:hover {
+                          transform: scale(1.1);
+                      }
+                  }
+              }
+          }
+          .cont {
+              flex: 1;
+              box-sizing: border-box;
+              h2 {
+                  margin-top: 10px;
+                  a {
+                      font-size: 20px;
+                      line-height: 26px;
+                      font-weight: bold;
+                      color: #222;
+                      &:hover,
+                      &:active {
+                          color: #406599;
+                      }
+                      &:visited {
+                          color: #999;
+                      }
+                  }
+              }
+              .info {
+                  margin-top: 14px;
+                  * {
+                      font-size: 14px;
+                  }
+                  .time {
+                      float: left;
+                      b {
+                          border: 1px solid #FF7920;
+                          font: 12px/24px "MicroSoft YaHei";
+                          color: #ff7920;
+                          padding: 0px 4px;
+                          margin-right: 10px;
+                      }
+                      .yule {
+                          border-color: #55C167;
+                          color: #55C167;
+                      }
+                      .keji {
+                          border-color: #87A5B5;
+                          color: #87A5B5;
+                      }
+                      .shishang {
+                          border-color: #B46AFF;
+                          color: #B46AFF;
+                      }
+                      .guonei {
+                          border-color: #41BAAD;
+                          color: #41BAAD;
+                      }
+                      .guoji {
+                          border-color: skyblue;
+                          color: skyblue;
+                      }
+                      .junshi {
+                          border-color: red;
+                          color: red;
+                      }
+                      i {
+                          color: #389fca;
+                      }
+                  }
+                  .from {
+                      float: right;
+                  }
+                  .from a {
+                      color: orange;
+                  }
+              }
+          }
+        }
+    }
+}
